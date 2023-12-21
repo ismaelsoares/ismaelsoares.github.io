@@ -1,18 +1,22 @@
-// import { useState } from 'react'
-import './App.css'
-import { Component } from './components/Component'
-import { Image } from './components/Image'
+import './App.css';
+import { Buttons } from './components/Buttons';
+import { Footer } from './components/Footer';
+import { Profile } from './components/Profile';
+import { SocialLinks } from './components/SocialLinks';
+import { Switch } from './components/Switch';
 
-function App() {
+export function App() {
 
   return (
     <>
-      <div>
-        <Image />
-        <Component />
+      <div id="container" >
+        <Profile />
+        <Switch />
+        <Buttons />
+        <SocialLinks />
+        <Footer />
       </div>
     </>
   )
 }
 
-export default App

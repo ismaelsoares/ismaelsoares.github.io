@@ -1,7 +1,7 @@
 export const Component = () => {
     return (
         <div>
-            <h1>Fala Baitola</h1>
+            <h1>Minha página inicial</h1>
         </div>
     )
 }
